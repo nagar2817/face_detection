@@ -3,6 +3,7 @@ import "./logo.style.scss";
 import Tilt from 'react-tilt'
 import brain from "../../asset/brain.png";
 
+// logo component as function
 const Logo = ()=>(
     <div style={{margin:"10px",padding:"20px",borderRadius:"5px",boxShadow:"3px",borderColor:"pink"}}>
     <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
