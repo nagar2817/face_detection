@@ -13,9 +13,7 @@ const PartcileOptions = {
         density: {
           "enable" :true,
           "value_area":1000
-
-        }
-        
+        } 
     }
 }
 }
@@ -29,9 +27,6 @@ class App extends React.Component{
           <Logo />
           <Rank/>
           <LinkForm />
-        {/*
-        
-        // <faceRecognition />*/}
       </div>
     );
   }
